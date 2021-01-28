@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    background-color: rgb(45, 30, 80);   
+}
+
+/* Apresentação do meu portfólio, likedin e ghithub */
+#nave{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+/* Nome do site  */
+.nave_nome{
+    color: white;   
+}
+
+/*   Esta parte são os links de contato na parte direita superior do site CONTATO */
+.nave_contato ul{
+    font-size: normal;
+    float: right;
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+.nave_contato li a{
+    margin: 10px;
+    padding: 0px;
+    text-decoration: none;
+    color: yellowgreen;
+}
+.nave_contato a:hover{
+    font-size: normal;
+    background-color: yellowgreen;
+    color: white;
+    transition: 0.9s;
+    border-radius: 45px;   
+}
+
+
+/* Centralização de todo o conteúdo do site,  */
+#combustivel, #perfume, #login{
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+h1,h2{
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+}
+p{
+    color: rgb(22, 230, 67);
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+}
+img{
+    display: flex;
+    max-width: 500px;
+    margin: auto;
+    align-items: center;
+}
+
+/* Os links que estão debaixo das fotos */
+.link a{  
+    
+    margin: auto;
+    padding: 0px;
+    text-decoration: none;
+    color: yellowgreen;
+    font-size: 16pt;  
+    width: 500px;
+}
+.link a:hover{
+    display: block; 
+    background-color: yellowgreen;
+    color: white;
+    transition: 0.9s;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/* Meu perfil  */
+#profile{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgba(27, 24, 41, 0.972);
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+}
+.profile_img img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+
+/* A responsividade do site para mobile */
+@media (min-width:320px){
+    img{
+        width: 100%;
+    }
+    #nave{
+        height: 100px;
+    }
+    
+}
+@media (max-width:480px){
+    .nave_nome h1{
+        font-size: 16pt;
+    }
+    .nave_contato li{
+        display: flex;
+        float: right;
+        margin: 3px;
+    
+    }
+}
