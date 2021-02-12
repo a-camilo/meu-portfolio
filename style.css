@@ -18,7 +18,7 @@ body{
   border-bottom: solid 3px white;
 }
 /* Nome do site  */
-.nave_nome{
+.nave_nome h1{
     color: white;   
     margin: 30px;
 }
