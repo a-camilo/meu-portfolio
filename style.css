@@ -15,10 +15,12 @@ body{
   justify-content: space-between;
   align-items: center;
   margin: 10px;
+  border-bottom: solid 3px white;
 }
 /* Nome do site  */
 .nave_nome{
     color: white;   
+    margin: 30px;
 }
 
 /*   Esta parte são os links de contato na parte direita superior do site CONTATO */
@@ -27,26 +29,17 @@ body{
     float: right;
     display: flex;
     list-style-type: none;
-    margin: 0px;
-    padding: 0;
-}
-.nave_contato li a{
-    margin: 10px;
+    margin: 60px;
     padding: 0px;
-    text-decoration: none;
-    color: yellowgreen;
 }
-.nave_contato a:hover{
-    font-size: normal;
-    background-color: yellowgreen;
-    color: white;
-    transition: 0.9s;
-    border-radius: 45px;   
+.nave_contato li a img{
+    width: 60px;
+    margin: 10px;
+    padding: 5px;
 }
-
 
 /* Centralização de todo o conteúdo do site,  */
-#combustivel, #perfume, #login{
+#combustivel, #perfume, #login, #cloneFlix{
     margin: 10px auto;
     padding: 10px;
     max-width: 600px;
@@ -113,6 +106,23 @@ img{
     }
     #nave{
         height: 100px;
+        max-width: 100%;
+        margin: 0px;
+    }
+    
+    .nave_nome{
+        margin: 0;
+    }
+    .nave_contato ul{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .nave_contato img{
+        max-width: 100%;
+        padding: 100px;
+        margin: 80px;
+        
     }
     
 }
@@ -120,10 +130,21 @@ img{
     .nave_nome h1{
         font-size: 16pt;
     }
-    .nave_contato li{
+    .nave_contato img{
         display: flex;
         float: right;
-        margin: 3px;
+        max-width: 100%;
     
     }
+    .link a{
+        max-width: 100%;
+        display: block; 
+        background-color: yellowgreen;
+        color: white;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    }
+    
+    
 }
