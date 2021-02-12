@@ -110,8 +110,9 @@ img{
         margin: 0px;
     }
     
-    .nave_nome{
-        margin: 0;
+    .nave_nome h1{
+        margin: 15px;
+        font-size: auto;
     }
     .nave_contato ul{
         max-width: 100%;
