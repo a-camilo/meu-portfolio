@@ -39,7 +39,7 @@ body{
 }
 
 /* Centralização de todo o conteúdo do site,  */
-#combustivel, #perfume, #login, #cloneFlix{
+#combustivel, #perfume, #login, #cloneFlix,#minhaAcao{
     margin: 10px auto;
     padding: 10px;
     max-width: 600px;
