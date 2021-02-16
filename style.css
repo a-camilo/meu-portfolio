@@ -122,10 +122,8 @@ img{
     .nave_contato img{
         max-width: 100%;
         padding: 100px;
-        margin: 80px;
-        
-    }
-    
+        margin: 80px;   
+    }  
 }
 @media (max-width:480px){
     .nave_nome h1{
@@ -135,7 +133,6 @@ img{
         display: flex;
         float: right;
         max-width: 100%;
-    
     }
     .link a{
         max-width: 100%;
@@ -144,8 +141,14 @@ img{
         color: white;
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
-    }
-    }
-    
-    
+    }   
+}
+#footer{
+    height: 100px;
+    border-top: solid white 3px;
+    background-color: rgba(27, 24, 41, 0.972);
+}
+.footer-register{
+    padding-top: 40px;
+    float: inline-end;
 }
