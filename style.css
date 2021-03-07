@@ -39,7 +39,7 @@ body{
 }
 
 /* Centralização de todo o conteúdo do site,  */
-#combustivel, #perfume, #login, #cloneFlix,#minhaAcao{
+#combustivel, #perfume, #login, #cloneFlix,#minhaAcao, #burguer{
     margin: 10px auto;
     padding: 10px;
     max-width: 600px;
@@ -68,21 +68,23 @@ img{
 
 /* Os links que estão debaixo das fotos */
 .link a{  
-    
+    display: block;
     margin: auto;
     padding: 0px;
     text-decoration: none;
-    color: yellowgreen;
-    font-size: 16pt;  
-    width: 500px;
-}
-.link a:hover{
-    display: block; 
-    background-color: yellowgreen;
     color: white;
-    transition: 0.9s;
+    background-color: yellowgreen;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    font-size: 16pt;  
+    max-width: 500px; 
+}
+.link a:hover{
+    /* display: block;  */
+    
+    color: white;
+    /* transition: 0.9s; */
+    
 }
 /* Meu perfil  */
 #profile{
