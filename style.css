@@ -161,17 +161,30 @@ body{
         border-radius: 5px;
         cursor: pointer;
     } 
-    .content-apresentacao,.content-apresentacao-english{
+    .content-apresentacao{
         top: 0;
         margin: 30px 0;
     } 
-    .texto-apresentacao, .texto-apresentacao-english{
+    .texto-apresentacao {
         margin: 0 6px;
         max-width: 100%;
         font-size: 1rem; 
         text-align: justify;  
     }
-    .texto-apresentacao,.texto-apresentacao-english strong{
+    .texto-apresentacao strong{
+        font-size: 1.6em; 
+    }
+    .content-apresentacao-english{
+        top: 0;
+        margin: 30px 0;
+    }
+    .texto-apresentacao-english{
+        margin: 0 6px;
+        max-width: 100%;
+        font-size: 1rem; 
+        text-align: justify;  
+    }
+    .texto-apresentacao-english strong{
         font-size: 1.6em; 
     }
     .content-portifolio{
