@@ -23,20 +23,31 @@ body{
     border-radius: 50%;
     width: 200px;
 }
-  /* Esta parte são os links de contato na parte direita superior do site CONTATO*/
+/* Esta parte são os links de contato na parte direita superior do site CONTATO*/
 .social-network ul{
     float: right;
     display: flex;
     list-style-type: none;
-    margin-right: 20px;
     padding: 0px;
 }
 .social-network li a img{
     width: 35px;
-    margin: auto 5px ;
+    margin: auto 0px ;
     padding: 5px;
-} 
-
+}
+.translate ul{
+    float: right;
+    display: flex;
+    padding: 0px;
+    margin-right: 20px;
+}
+.translate img {
+    max-width: 30px;
+    margin:  5px  10px 13px 0;
+    padding: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+}
 /* Conteúdo quem sou eu */
 .content-apresentacao {
     display: inline-block;
@@ -57,6 +68,26 @@ body{
 .texto-apresentacao strong{
     font-size: 1.8em;
 }
+/* Conteúdo em Inglês */
+.content-apresentacao-english {
+    display: none;
+    top: 110px;
+    position: relative;  
+    margin: 40px ;   
+}
+.texto-apresentacao-english{
+    position: static;
+    max-width: 80%;
+    margin: auto;
+    line-height: 1.5em;
+    color: #505157;
+    font-weight: bold;
+    font-size: 1.6em; 
+    font-family: 'Times New Roman', Times, serif
+}
+.texto-apresentacao-english strong{
+    font-size: 1.8em;
+}
 /* Meu portifolio */
 .content-portifolio{
     margin: 200px 0 100px 0;   
@@ -72,7 +103,6 @@ body{
 .portifolio{ 
     width: 300px;
     padding:25px;
-    /* border: #44acf2 solid 1px; */
     border-radius: 15%;
     box-shadow:7px 3px 13px ;
 }
@@ -82,7 +112,6 @@ body{
     margin: 5px auto;
     border: 1px solid;
 }
-
 .footer{
     display: inline-block;
     width: 100%;
@@ -124,18 +153,25 @@ body{
         max-width: 30px;
         padding: 5px;
         margin-bottom: 10px;
+    }
+    .translate img{
+        width: 30px;
+        margin:  3px  8px 20px 0;
+        padding: 2px;
+        border-radius: 5px;
+        cursor: pointer;
     } 
-    .content-apresentacao{
+    .content-apresentacao,.content-apresentacao-english{
         top: 0;
         margin: 30px 0;
     } 
-    .texto-apresentacao{
+    .texto-apresentacao, .texto-apresentacao-english{
         margin: 0 6px;
         max-width: 100%;
         font-size: 1rem; 
         text-align: justify;  
     }
-    .texto-apresentacao strong{
+    .texto-apresentacao,.texto-apresentacao-english strong{
         font-size: 1.6em; 
     }
     .content-portifolio{
@@ -144,11 +180,9 @@ body{
     .content-portifolio ul,li{
         max-width: 100%;
         padding: 0;  
-        margin: 0 ;
-         
+        margin: 0 ;   
     }
-    .portifolio{
-        
+    .portifolio{ 
         padding: 10px;
         width: 270px; 
         box-shadow: none;
