@@ -161,32 +161,20 @@ body{
         border-radius: 5px;
         cursor: pointer;
     } 
-    .content-apresentacao{
+    .content-apresentacao, .content-apresentacao-english{
         top: 0;
-        margin: 30px 0;
+        margin: 0 10px;
     } 
-    .texto-apresentacao {
+    .texto-apresentacao, .texto-apresentacao-english {
         margin: 0 6px;
         max-width: 100%;
         font-size: 1rem; 
-        text-align: justify;  
+        text-align: left;  
     }
-    .texto-apresentacao strong{
-        font-size: 1.6em; 
+    .texto-apresentacao strong,.texto-apresentacao-english strong{
+        font-size: 1.5em; 
     }
-    .content-apresentacao-english{
-        top: 0;
-        margin: 30px 0;
-    }
-    .texto-apresentacao-english{
-        margin: 0 6px;
-        max-width: 100%;
-        font-size: 1rem; 
-        text-align: justify;  
-    }
-    .texto-apresentacao-english strong{
-        font-size: 1.6em; 
-    }
+   
     .content-portifolio{
         margin: 50px 0;
     }
